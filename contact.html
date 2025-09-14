@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eddy Glam Hub | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">Eddy Glam Hub</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero contact-hero">
+    <div class="hero-text">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you. Get in touch today!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Reach Out</h2>
+    <p>Fill the form or contact us directly through the details below.</p>
+
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <form id="contactForm" class="contact-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Visit Us</h3>
+        <p><strong>Address:</strong> 123 Beauty Street, Lagos, Nigeria</p>
+        <p><strong>Phone:</strong> +234 801 234 5678</p>
+        <p><strong>Email:</strong> info@eddyglamhub.com</p>
+
+        <h3>Opening Hours</h3>
+        <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+        <p>Sunday: Closed</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3>✅ Message Sent</h3>
+      <p>Thank you for reaching out. We’ll get back to you soon!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Eddy Glam Hub. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
